@@ -17,7 +17,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    uiWebView.scrollView.bounces = NO;
+	
+    NSURLRequest *request = [[NSURLRequest alloc] initWithURL: [NSURL URLWithString: @"http://maps.google.com"] cachePolicy: NSURLRequestUseProtocolCachePolicy timeoutInterval: 60];
+    
+    [uiWebView loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning

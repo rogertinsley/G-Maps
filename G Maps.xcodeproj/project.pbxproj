@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB0503B216160231008686A7 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0503B116160231008686A7 /* Icon@2x.png */; };
+		DB0503B8161602C3008686A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0503B7161602C3008686A7 /* Default@2x.png */; };
+		DB0503BA161602E5008686A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0503B9161602E5008686A7 /* Default-568h@2x.png */; };
+		DB0503BC161603CA008686A7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0503BB161603CA008686A7 /* Icon.png */; };
 		DB8E58301614E5B700E39587 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8E582F1614E5B700E39587 /* UIKit.framework */; };
 		DB8E58321614E5B700E39587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8E58311614E5B700E39587 /* Foundation.framework */; };
 		DB8E58341614E5B700E39587 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8E58331614E5B700E39587 /* CoreGraphics.framework */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB0503B116160231008686A7 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		DB0503B7161602C3008686A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../untitled folder/Default@2x.png"; sourceTree = "<group>"; };
+		DB0503B9161602E5008686A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB0503BB161603CA008686A7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		DB8E582B1614E5B700E39587 /* G Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "G Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8E582F1614E5B700E39587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DB8E58311614E5B700E39587 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +64,10 @@
 		DB8E58201614E5B700E39587 = {
 			isa = PBXGroup;
 			children = (
+				DB0503B9161602E5008686A7 /* Default-568h@2x.png */,
+				DB0503BB161603CA008686A7 /* Icon.png */,
+				DB0503B116160231008686A7 /* Icon@2x.png */,
+				DB0503B7161602C3008686A7 /* Default@2x.png */,
 				DB8E58351614E5B700E39587 /* G Maps */,
 				DB8E582E1614E5B700E39587 /* Frameworks */,
 				DB8E582C1614E5B700E39587 /* Products */,
@@ -163,6 +175,10 @@
 				DB8E58441614E5B700E39587 /* Default@2x.png in Resources */,
 				DB8E58461614E5B700E39587 /* Default-568h@2x.png in Resources */,
 				DB8E58491614E5B700E39587 /* MainStoryboard.storyboard in Resources */,
+				DB0503B216160231008686A7 /* Icon@2x.png in Resources */,
+				DB0503B8161602C3008686A7 /* Default@2x.png in Resources */,
+				DB0503BA161602E5008686A7 /* Default-568h@2x.png in Resources */,
+				DB0503BC161603CA008686A7 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +226,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ROGER Tinsley";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ROGER Tinsley";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -224,6 +241,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "2EE9C5A0-0D96-4DFF-B1DE-AA886A7153B1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2EE9C5A0-0D96-4DFF-B1DE-AA886A7153B1";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -237,7 +256,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ROGER Tinsley";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ROGER Tinsley";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -245,6 +265,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "2EE9C5A0-0D96-4DFF-B1DE-AA886A7153B1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2EE9C5A0-0D96-4DFF-B1DE-AA886A7153B1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -256,7 +278,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "G Maps/G Maps-Prefix.pch";
 				INFOPLIST_FILE = "G Maps/G Maps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -267,7 +291,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "G Maps/G Maps-Prefix.pch";
 				INFOPLIST_FILE = "G Maps/G Maps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -291,6 +317,7 @@
 				DB8E58511614E5B700E39587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
